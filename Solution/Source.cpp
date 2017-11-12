@@ -138,7 +138,7 @@ T Queue<T>::dequeue()
 	return tReturn;
 }
 
-void main()
+int main()
 {
 	Stack<int> MyStack;
 	Queue<int> MyQueue;
@@ -171,4 +171,5 @@ void main()
 	}
 
 	system("pause");
+	return 0;
 }
